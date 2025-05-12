@@ -53,16 +53,18 @@
    │   ├── result.tpl
    │   ├── latex_result.tpl
    │   └── latex_text_result.tpl
+   ```
+
 ## 📄 ライセンス
 
 MIT License
 
 ## 📝 手順
    
-   この内容をコピーして、OCR フォルダの中に README.md という名前で保存してください。  
-   保存後、GitHubに反映するには以下を実行：
+この内容をコピーして、OCR フォルダの中に README.md という名前で保存してください。  
+保存後、GitHubに反映するには以下を実行：
    
-      ```bash
-      git add README.md
-      git commit -m "Add README.md"
-      git push
+   ```bash
+   git add README.md
+   git commit -m "Add README.md"
+   git push
