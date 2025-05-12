@@ -25,21 +25,22 @@
    cd OCR
 
 2. 必要なライブラリをインストール：
-bash
+```bash
    pip install bottle pillow pytesseract
 
 3. サーバーを起動：
-bash
+```bash
    python app.py
    
 4. ブラウザで開く：
-
+```arduino
    http://localhost:8080
    
 5. 画像をアップロードして、結果を確認＆コピー！
 
 ## 📂 ディレクトリ構成
 
+```bash
 OCR/
 ├── app.py              # アプリのエントリポイント
 ├── bottle.py           # Bottleマイクロフレームワーク
@@ -64,7 +65,7 @@ MIT License
 この内容をコピーして、OCR フォルダの中に README.md という名前で保存してください。  
 保存後、GitHubに反映するには以下を実行：
 
-bash
+```bash
 git add README.md
 git commit -m "Add README.md"
 git push
